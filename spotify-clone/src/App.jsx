@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Sidebar from './components/sidebar'
+import Sidebar from '../../spotify-admin/src/components/Sidebar' 
 import Player from './components/Player'
 import Display from './components/Display'
 import { playerContext } from './context/playerContext'
