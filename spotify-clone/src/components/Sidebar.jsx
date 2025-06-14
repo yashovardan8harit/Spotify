@@ -2,7 +2,7 @@ import React from 'react'
 import {assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 
-const sidebar = () => {
+const Sidebar = () => {
   const navigate = useNavigate();
   return (
     <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
@@ -42,4 +42,4 @@ const sidebar = () => {
   )
 }
 
-export default sidebar
+export default Sidebar
